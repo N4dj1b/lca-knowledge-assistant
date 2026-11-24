@@ -1,0 +1,57 @@
+[
+  {
+    "id": "DEMO-SW-01",
+    "name": "Demo LCA Workbench",
+    "resource_type": "Software",
+    "description": "Illustrative software profile for modelling product systems, organizing life-cycle inventory data, and reviewing assessment results.",
+    "tags": ["software", "product system", "inventory modelling", "assessment workflow", "reporting"],
+    "regions": ["Global"],
+    "study_phases": ["cradle-to-gate", "cradle-to-grave"],
+    "impact_categories": ["climate change", "water use"],
+    "source_note": "Synthetic demonstration catalogue entry; not a real product evaluation."
+  },
+  {
+    "id": "DEMO-DB-01",
+    "name": "Demo European Food Inventory",
+    "resource_type": "Database",
+    "description": "Illustrative inventory dataset profile for food and agricultural product systems with a stated European geographical focus.",
+    "tags": ["database", "food", "agriculture", "inventory data", "Europe"],
+    "regions": ["Europe"],
+    "study_phases": ["cradle-to-gate"],
+    "impact_categories": ["climate change", "water use"],
+    "source_note": "Synthetic demonstration catalogue entry; not a real dataset and not validated for an assessment."
+  },
+  {
+    "id": "DEMO-DB-02",
+    "name": "Demo Generic Materials Inventory",
+    "resource_type": "Database",
+    "description": "Illustrative generic inventory dataset profile for construction and industrial material supply chains.",
+    "tags": ["database", "materials", "manufacturing", "inventory", "industrial"],
+    "regions": ["Global"],
+    "study_phases": ["cradle-to-gate", "cradle-to-grave"],
+    "impact_categories": ["climate change"],
+    "source_note": "Synthetic demonstration catalogue entry; not a real dataset and not validated for an assessment."
+  },
+  {
+    "id": "DEMO-METHOD-01",
+    "name": "Demo Climate Impact Method",
+    "resource_type": "ImpactAssessmentMethod",
+    "description": "Illustrative impact assessment method profile focused on the climate change impact category.",
+    "tags": ["method", "impact assessment", "climate change", "global warming"],
+    "regions": ["Global"],
+    "study_phases": ["cradle-to-gate", "cradle-to-grave"],
+    "impact_categories": ["climate change"],
+    "source_note": "Synthetic demonstration catalogue entry; not an official method or recommendation."
+  },
+  {
+    "id": "DEMO-METHOD-02",
+    "name": "Demo Multi-Impact Method",
+    "resource_type": "ImpactAssessmentMethod",
+    "description": "Illustrative impact assessment method profile covering climate change and water use categories.",
+    "tags": ["method", "impact assessment", "climate change", "water use", "multi-impact"],
+    "regions": ["Global"],
+    "study_phases": ["cradle-to-gate", "cradle-to-grave"],
+    "impact_categories": ["climate change", "water use"],
+    "source_note": "Synthetic demonstration catalogue entry; not an official method or recommendation."
+  }
+]

@@ -1,0 +1,25 @@
+@prefix lca: <https://example.org/lca-knowledge#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+lca:Study a rdfs:Class .
+lca:StudyRequirement a rdfs:Class .
+lca:Resource a rdfs:Class .
+lca:Software a rdfs:Class ; rdfs:subClassOf lca:Resource .
+lca:Database a rdfs:Class ; rdfs:subClassOf lca:Resource .
+lca:ImpactAssessmentMethod a rdfs:Class ; rdfs:subClassOf lca:Resource .
+lca:ImpactCategory a rdfs:Class .
+lca:StudyPhase a rdfs:Class .
+lca:Organization a rdfs:Class .
+lca:Other a rdfs:Class .
+
+lca:usesDatabase a rdf:Property .
+lca:usesMethod a rdf:Property .
+lca:coversCategory a rdf:Property .
+lca:hasStudyPhase a rdf:Property .
+lca:mentions a rdf:Property .
+lca:relatedTo a rdf:Property .
+lca:supportsStudyPhase a rdf:Property .
+lca:availableInRegion a rdf:Property .
+lca:coversImpactCategory a rdf:Property .
+lca:hasTag a rdf:Property .
